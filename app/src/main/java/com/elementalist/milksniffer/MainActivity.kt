@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
         if (result.resultCode == RESULT_OK) {
             Toast.makeText(this, "Bluetooth Enabled!", Toast.LENGTH_SHORT).show()
         } else {
-            Toast.makeText(this, "Bluetooth is required for this app to run", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Bluetooth is required for this app to run!", Toast.LENGTH_SHORT).show()
             this.finish()
         }
     }
